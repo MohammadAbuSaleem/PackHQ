@@ -1,0 +1,118 @@
+body {
+    background: url(../img/backgrounds/main-bg-2.png);
+    font-family: "Comfortaa", cursive !important;
+}
+/* Main Page */
+.main-nav {
+    background: url(../img/backgrounds/nav-bg2.jpg) no-repeat;
+    background-size: cover;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.nav-items-container {
+    width: 100%;
+}
+
+.logo {
+    transition: 0.4s;
+    width: 130px;
+}
+
+.container {
+    position: relative;
+    z-index: 999;
+}
+
+/* carousel Slider */
+.carousel-item {
+    height: 500px;
+}
+.pack-carousel {
+    background: url(../img/backgrounds/main-bg-dark-2.png);
+    max-width: 100% !important;
+    z-index: 50;
+}
+
+.carousel-caption h2 {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    text-shadow: rgb(44, 44, 44) 3px 1px 4px;
+}
+.carousel-caption p {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    font-size: 18pt;
+    text-shadow: rgb(44, 44, 44) 3px 1px 4px;
+}
+/* card Containers */
+.pack-card {
+    background: url(../img/backgrounds/snow-top.png) top center repeat-x,
+        #1d1d1d;
+    background-size: 100px 30px;
+    border-radius: 20px;
+    min-height: 43rem;
+}
+
+.pack-card-container {
+    padding: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #f1f1f1;
+}
+
+.pack-card-item {
+    padding-top: 2rem;
+}
+.pack-card-image {
+    border-radius: 10px;
+}
+.pack-card-text {
+    padding-top: 2rem;
+}
+.pack-partner-image {
+    /* min-height: 12rem !important; */
+    border-radius: 10px;
+}
+/* sections  */
+.section-header {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.section-header h1 {
+    font-weight: 800;
+    text-shadow: rgb(44, 44, 44) 2px 1px 1px;
+}
+
+.table {
+    margin-bottom: 0rem !important;
+}
+.table td {
+    padding: 1rem !important;
+}
+
+.table th,
+.table td {
+    text-align: center;
+}
+
+.change-log {
+    color: gray;
+    font-size: 14pt;
+    transition: 0.4s;
+}
+
+.change-log:hover {
+    color: white;
+    cursor: pointer;
+}
+.card-header {
+    background-color: rgb(29 29 29) !important;
+    font-size: 1.75rem;
+    color: #f1f1f1;
+}
